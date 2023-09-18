@@ -1,11 +1,23 @@
-h1{
+body{
     background-color: #b3b3b3;
+    font-size: 150%;
+    margin: 4%;
+} 
+h1{
+    background-color: #666666;
     font-size: 150%;   
     color: #ffffff;
+}
+section{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
 }
 header, footer{
     background: #666666;
     text-align: center;
+    padding: 15px;
 }
 nav{
     font-variant: small-caps;
@@ -23,6 +35,7 @@ summary{
     font-style: normal;
 }
 footer{
+    clear: both;
     text-align: justify;
    
         --s: 94px; /* control the size*/
@@ -41,4 +54,7 @@ footer{
           conic-gradient(from  -60deg at 50% calc(100%/3),var(--c1) 120deg,var(--c2) 0 240deg,var(--c3) 0);
         background-size: calc(var(--s)*1.732) var(--s);
 
+}
+img{
+    width: 125px;
 }
